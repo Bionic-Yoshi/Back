@@ -1,7 +1,9 @@
 #Bionic Yoshi Server
 
 ## Prerequisites
-**yarn 1.9.4** or **node 8.11.1** (or higher) is required
+**yarn 1.9.4** or **node 8.11.1** and **MongoDB 2.6.10** (or higher) is required
+
+
 
 ## Installation
 This application can be installed via **yarn** by running `yarn`.
