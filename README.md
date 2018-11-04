@@ -8,7 +8,7 @@
 ## Installation
 This application can be installed via **yarn** by running `yarn`.
 
-### Configuration
+## Configuration
 You can find a folder with configuration files at `/config` if you need. 
 
 You must configure your MongoDB URL ( With Auth if needed ) `/config/db.js`
@@ -17,17 +17,17 @@ In PROD MODE you must configure API and Websocket Server PORT.
 
 And you can configure secret key who bcrypt All passwords.
 
-### Build
+## Build
 Once installed you're able to build the server.
 
-#### Development mode
+## Development mode
 To launch the client in dev mode, run `yarn start`. 
 
 API REST : [http://localhost:3090](http://localhost:3090)
 
 WEBSOCKET SERVER : [http://localhost:3091](http://localhost:3091)
 
-#### Production mode
+## Production mode
 To build the client in prod mode, run `yarn build`.
 
 You can use NodeJS.
