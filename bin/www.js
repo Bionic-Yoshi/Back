@@ -89,8 +89,9 @@
 
 const app = require('../app');
 
-const dev = process.env.NODE_ENV !== 'production';
-const port = dev ? 3090 : 8090;
+const config = require('../config/global');
+
+const { port } = config;
 
 app.listen(port, errListen => {
   if (errListen) throw errListen;
