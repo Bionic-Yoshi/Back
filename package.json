@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "lintfix": "eslint . --fix",
     "clean": "shx rm -rf dist",
-    "build": "npm run clean && babel \"./{,!(dist|node_modules)/**/}*.js\" bin/www.js -d dist",
+    "build": "npm run clean && babel \"./{,!(dist|node_modules)/**/}*.js\" -d dist",
     "start": "npm run build && node ./dist/app.js"
   },
   "dependencies": {
