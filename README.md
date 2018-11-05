@@ -33,7 +33,7 @@ To build the client in prod mode, run `yarn build`.
 You can use NodeJS.
 
 ````
-node dist/app.js
+node dist/bin/www.js
 ````
 
 Or you can use PM2 to serve.
@@ -43,7 +43,7 @@ sudo npm install -g pm2
 ````
 
 ````
-pm2 start dist/app.js
+pm2 start dist/bin/www.js
 ````
 
 If you want to create service you can follow this tutorial : [Manage Application with PM2](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04#manage-application-with-pm2)
